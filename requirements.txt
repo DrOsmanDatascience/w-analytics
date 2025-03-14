@@ -1,0 +1,20 @@
+langchain
+python-dotenv
+langchain_community
+langchain_core
+langchain-text-splitters
+langchain-openai
+sentence-transformers
+langchain_huggingface
+faiss-cpu
+pypdf
+chromadb
+langchain_chroma
+beautifulsoup4
+langchain-groq
+streamlit
+matplotlib
+scikit-learn
+abess
+seaborn # for visualization
+watchdog # for file watching
