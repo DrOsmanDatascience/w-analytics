@@ -706,13 +706,13 @@ if check_password():
                                 
                                 1. {var_groupby} policy uses {ID} location as the only deciding factor. The policy doesn't consider other important details about individual {id}s.
                                 
-                                2. ML-based policy considers {ID} behavior, previous {outcome_var} history, {features} and {var_groupby}n all together - identifies complex patterns and interactions between these features.
+                                2. ML-based policy considers {ID} behavior, previous {target} history, {features} and {var_groupby}n all together - identifies complex patterns and interactions between these features.
                                 
                                 3. ML builds a more nuanced understanding of what makes someone a "high net {ID}."
                                 
                                 4. The ML algorithm used here can detect subtle, nonlinear relationships between {features_ls}.
                                 
-                                5. Empirical evidence: In testing, ML Policy achieved a net {outcome_var} average {sum(d['prediction'] for d in donors) / len(donors):.2f} compared to {var_groupby} Policy's {locations_df[outcome_var].sum() / test.shape[0]:.2f}.
+                                5. Empirical evidence: In testing, ML Policy achieved a net {target} average {sum(d['prediction'] for d in donors) / len(donors):.2f} compared to {var_groupby} Policy's {locations_df[outcome_var].sum() / test.shape[0]:.2f}.
 
                         
                                 """
