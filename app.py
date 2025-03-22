@@ -712,8 +712,7 @@ if check_password():
                                 
                                 4. The ML algorithm used here can detect subtle, nonlinear relationships between {features_ls}.
                                 
-                                5. Empirical evidence: In testing, ML Policy achieved a net {target} average {sum(d['prediction'] for d in donors) / len(donors):.2f} compared to {var_groupby} Policy's {locations_df[outcome_var].sum() / test.shape[0]:.2f}.
-
+                                5. Empirical evidence: In testing, ML Policy achieved a net {target} average {sum(d['prediction'] for d in donors) / len(donors):.2f} compared to {var_groupby} Policy's.
                         
                                 """
                                         
